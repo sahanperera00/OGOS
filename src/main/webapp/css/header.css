@@ -1,0 +1,33 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.row-1 {
+	width: 100%;
+	height: 60px;
+	display:flex;
+	background-color: rgb(250, 250, 250);
+    justify-content: space-around;
+}
+
+.col-1 {
+	/*background-color: rgb(240,240,240);*/
+}
+
+.col-2 {
+	/*background-color: rgb(220,220,220);*/
+}
+
+.col-3 {
+	/*background-color: rgb(200,200,200);*/
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+  }
